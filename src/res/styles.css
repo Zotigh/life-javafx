@@ -11,15 +11,28 @@ GridPane {
 #viewScroller {
   -fx-hbar-policy: never;
   -fx-vbar-policy: never;
-  -fx-min-width: 600px;
-  -fx-max-width: 600px;
+  -fx-min-width: 600 px;
+  -fx-max-width: 600x;
   -fx-min-height: 600px;
   -fx-max-height: 600px;
   -fx-pannable: true;
+
 }
 
 #densitySlider {
   -fx-major-tick-unit: 1;
   -fx-minor-tick-count: 0;
   -fx-snap-to-ticks: true;
+  -fx-show-tick-labels: true;
+  -fx-border-color: grey;
+  -fx-border-width: 5px;
+  -fx-border-style: groove;//
 }
+
+
+Text {
+  -fx-font-weight: bold;
+  -fx-font-style: italic;
+  -fx-font-smoothing-type: subpixel-antialiased;//
+}
+
